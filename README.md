@@ -1,5 +1,5 @@
 # TypedDataTableConverter
-A version of a JSON.NET DataTable converter that allows you to specify the data types of columns if known.
+A version of the JSON.NET DataTable converter that allows you to specify the data types of columns if known.
 
 The default datatable converter will sometimes not accurately identify the type of column if the JSON being parsed has either a missing or ambiguously formatted value in the first row.
 
