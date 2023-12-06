@@ -20,4 +20,4 @@ var typedConverter = new TypedDataTableConverter(employeeDataTypes);
 DataTable dataTable = JsonConvert.DeserializeObject<DataTable>(json, typedConverter);
 ```
 
-The converter code is a direct copy of the Newtonsoft repository code with a few small changes
+The converter code is a direct copy of the Newtonsoft [repository code](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Converters/DataTableConverter.cs) with a few small changes
